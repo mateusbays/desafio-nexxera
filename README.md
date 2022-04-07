@@ -1,5 +1,7 @@
-#PARA RODAR O PROJETO DESAFIO-NEXXERA
+#Desafio-Nexxera
+
 Para rodar o projeto você precisa das dependências Babel e pytz. Para instalar basta executar o comando:
+
 ### `pip install -r requirements.txt`
 
 Após isso só rodar  algun dos comandos abaixo, de acordo com a preferência de extensão para visualização.
