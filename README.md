@@ -1,12 +1,22 @@
 #Desafio-Nexxera
 
+Objetivo: Desenvolver uma aplicação que extraia as
+informações solicitadas do arquivo “modelo_arquivo.txt” para gerar um relatório utilizando
+apenas um dos exemplos contidos na segunda página do pdf AvaliacaoEstagioDesenvolvedorTraducao.
+#
 Para rodar o projeto você precisa das dependências Babel e pytz. Para instalar basta executar o comando:
 
 ### `pip install -r requirements.txt`
 
-Após isso só rodar  algun dos comandos abaixo, de acordo com a preferência de extensão para visualização.
-### `python main.py modelo_arquivo.txt relatorio_gerado.html`
-### `python main.py modelo_arquivo.txt relatorio_gerado.txt`
-### `python main.py modelo_arquivo.txt relatorio_gerado.csv`
+Após isso você deve rodar os seguintes comandos.
 
-Cada um desses comandos gera um relatório de acordo com a extensão escolhida.
+### `python main.py modelo_arquivo.txt relatorio_gerado.html`
+Cria um arquivo de relatório com a extensão .html
+
+### `python main.py modelo_arquivo.txt relatorio_gerado.txt`
+Cria um arquivo de relatório com a extensão .txt
+
+### `python main.py modelo_arquivo.txt relatorio_gerado.csv`
+Cria um arquivo de relatório com a extensão .csv
+
+
