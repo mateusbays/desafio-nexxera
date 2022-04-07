@@ -2,8 +2,9 @@
 Para rodar o projeto você precisa das dependências Babel e pytz. Para instalar basta executar o comando:
 ### `pip install -r requirements.txt`
 
-Após isso só rodar o comando referenciando o main, o arquivo de leitura e o relatório gerado.
+Após isso só rodar  algun dos comandos abaixo, de acordo com a preferência de extensão para visualização.
 ### `python main.py modelo_arquivo.txt relatorio_gerado.html`
+### `python main.py modelo_arquivo.txt relatorio_gerado.txt`
+### `python main.py modelo_arquivo.txt relatorio_gerado.csv`
 
-De acordo com o descrito nos requisitos de projeto, isso irá gerar um relatório baseado em um dos exemplos disponívels no .PDF da avaliação.
-
+Cada um desses comandos gera um relatório de acordo com a extensão escolhida.
