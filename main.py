@@ -1,5 +1,5 @@
 import sys
-from ReadingFile import *
+from GetDataFile import *
 from CreateReport import *
 
 
@@ -8,9 +8,9 @@ def main():
     file_import = sys.argv[1]
     file_export = sys.argv[2]
 
-    reading_file = ReadingFile(file_import)
+    data_file = GetDataFile(file_import)
 
-    data = reading_file.readFile()
+    data = data_file.getData()
     list_registro_detalhe = []
     header_lote = ''
     header_arquivo = ''
