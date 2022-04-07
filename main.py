@@ -28,9 +28,9 @@ def main():
             elif line[7] == '9':
                 trailer_arquivo = line
             else:
-                print('linha não mapeada')
+                print('Tipo de linha não mapeado')
         else:
-            print('linha não possui qtd de caracteres suficientes')
+            print('A linha não possui a quantidade de caracteres suficientes')
 
     create_report = CreateReport(list_registro_detalhe, header_lote, header_arquivo, file_export)
     create_report.generateByExtension()
